@@ -3,6 +3,7 @@ from xml import dom
 import math
 import re 
 import copy
+import argparse
 
 teiler = False
 
@@ -12,8 +13,19 @@ offset_y = 0.
 margin_x = 4.
 margin_y = 4.
 dot_size = 0.5
-helligkeit = .7
+helligkeit = 70
+svg_output = "bullet_sheet.svg"
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--grid", default=grid, type=float, help='Dot grid in mm')
+parser.add_argument("--date", action='store_true', help='Add a dot line for noting a date')
+parser.add_argument("--intensity", default=helligkeit, type=int, help='Intensity in percent')
+parser.add_argument("--output", default=svg_output, help='Output filename')
+
+args = parser.parse_args()
+grid = args.grid
+with_date = args.date
+helligkeit = float(args.intensity)/100.
 
 
 
@@ -34,9 +46,6 @@ teiler_grid = grid / math.pi
 def onlyNumbers(string):
    return "".join( re.findall(r'\d+', string) )
 
-#svg_template_file = "a5_template.svg"
-svg_output = "bullet_sheet.svg"
-svg_with_date_output = "bullet_sheet_with_date.svg"
 
 
 doc = minidom.parseString(svg_template)
@@ -86,17 +95,17 @@ teiler(dots, 0.5)
 teiler(dots, 0.75)
 
 
-dots_with_date = dots.copy()
 
-#datum_x = width - (grid + start_x)
-datum_grid = grid/3.
-dots_datum = math.floor(3. * grid / datum_grid) + 1
-datum_y = start_y + grid
-print(datum_y)
-# Datum rechts oben
-for dot_datum in range(dots_datum):
-    x = width - (start_x + datum_grid * dot_datum)
-    dots_with_date.append([x, datum_y])
+if with_date is True:
+    #datum_x = width - (grid + start_x)
+    datum_grid = grid/3.
+    dots_datum = math.floor(3. * grid / datum_grid) + 1
+    datum_y = start_y + grid
+    print(datum_y)
+    # Datum rechts oben
+    for dot_datum in range(dots_datum):
+        x = width - (start_x + datum_grid * dot_datum)
+        dots.append([x, datum_y])
 
 
 
@@ -117,7 +126,6 @@ def dotsToDoc(doc, dots):
         top_element.appendChild(dot_element)
 
 dotsToDoc(doc, dots)
-dotsToDoc(doc_with_date, dots_with_date)
 
 def writeSvg(filename, doc):
     f =  open(filename, "w")
@@ -125,7 +133,6 @@ def writeSvg(filename, doc):
     f.close()
     
 writeSvg(svg_output, doc)
-writeSvg(svg_with_date_output, doc_with_date)
 
 doc.unlink()
 doc_with_date.unlink()

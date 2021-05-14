@@ -10,6 +10,8 @@ Purpose MinBuJo
 
 TL;DR
 * Monthly/Annual - monthly fits on your desk under your keyboard and good to stow in general
+* Monthly has tow section, one the weekly planners and one for making notes
+* Annual Journal contains the long term activites with plans, calendars, goals or reflections
 * Spiral Book -> quick start and suitable for beginners who have never done BuJo
 * Flexbook -> alternative different video
 * Just suggestions, derive your own style
@@ -63,7 +65,7 @@ Start with your monthly goals on the first page of your monthly journal
 For the week you can use the weekly planner for the rough planning and the details follow on a daily basis there as well
 
 The bullet pages are for the notes that collect all your thoughts.
-Collections are all sorts of things: TODO lists, wish
+These collections are all sorts of things: TODO lists, wish
 lists favorites lists, ideas / concepts, goals & plans,
 analysis, self-knowledge & reflections ...
 
@@ -77,8 +79,9 @@ Do what ever suits best.
 
 Ring book
 Contains
-Header part: Manual, Trackers and Calendars (Birthday, Vacation)
-Second part: Long term collections and Log Book archive
+Header part: Quick manual, trackers and calendars (Birthday, Vacation)
+Second part: Long term collections
+Third part:  and log book archive
 Optional appendix: Anything else archive - chronological
 
 The header part requires some planning since it gives a better overview with a two sided print.
