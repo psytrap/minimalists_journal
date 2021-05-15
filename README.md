@@ -36,8 +36,9 @@ Since the proposed journal requires a few tools there's also a beginner version 
 
 # For Beginners
 
-Skip around 5 of the first  pages
 Use it Landscape with split pages
+Skip around 5 of the first  pages
+
 Glue in 5x weekly planer pages -> Templates on Github
 Supa clip for the current weekly
 Your notes just fill up the pages after the weekly planning
