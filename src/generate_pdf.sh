@@ -1,8 +1,9 @@
 #!/bin/sh
 
 
-rm ../pdf/A6/*
-rm ../pdf/4x6inch/*
+rm -v ../pdf/A6/*
+rm -v ../pdf/4x6inch/*
+rm -v ../pdf/A5/*
 
 loffice --convert-to pdf --outdir ../pdf/A6/ ./*.odt
 loffice --convert-to pdf --outdir ../pdf/A6/ ./*.ods
@@ -27,6 +28,7 @@ for grid in "5" "7.5" ; do
   done
 done
 
+rm -v *svg
 
 
 for pdf in ../pdf/A6/* ; do
@@ -36,10 +38,21 @@ for pdf in ../pdf/A6/* ; do
   gs -o ../pdf/4x6inch/$pdf -sDEVICE=pdfwrite -dDEVICEWIDTHPOINTS=288 -dDEVICEHEIGHTPOINTS=432 -dPDFFitPage -dFIXEDMEDIA ../pdf/A6/$pdf
 done
 
-rm *svg
+
+# weekly / tracker / quick
+for beginner in ../pdf/A6/weekly* ../pdf/A6/tracker* ../pdf/A6/quick* ; do
+  echo "PDF: $beginner"
+  beginner=$(basename $beginner)
+  # only supported in GS 9.54 gs -o ../pdf/A5/$beginner -sDownScaleFactor=3 -sDEVICE=pdfwrite -dORIENT1=false -sNupControl=2x1  -sDEFAULTPAPERSIZE=a4 ../pdf/A6/$beginner
+  convert -density 600 ../pdf/A6/$beginner +adjoin temp-%02d.png
+  if ! [ -f temp-01.png ]; then
+      cp -v temp-00.png temp-01.png
+  fi
+  montage -geometry +2+1 temp-*png temp.png
+  convert temp.png -density 600 ../pdf/A5/$beginner
+  rm *.png
+done
 
 
-
-
-
+# TODO use tmp files
 
