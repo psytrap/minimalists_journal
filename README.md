@@ -10,16 +10,21 @@ The Minimalists Bullet Journal splits into a monthly and an annual journal. The 
 
 Since the proposed journal requires some crafting and costs there's also a simplified version of the journal to get started.
 
-# How to use it
-## Journal Structure
+# Journal Structure
 
 The Minimalists Bullet Journal are actually two journals the monthly and the annual journal.
 
 The first pages of the monthly journal are a set of weekly planners, enough for one month of planning. The other half consist of bullet sheets to write down ideas and keep record of all kind of thoughts. Both parts relief your brain from the burden to keep them in memory. It helps you to decide what to do now and ignore anything beyond that.
 
+The annual journal has no strict structure. It contains various calendars, trackers and long-term collections. Collections can be all sorts of things: TODO lists wish lists, favorites lists, ideas / concepts, goals&plans, analysis, self-knowledge & reflections. Just start them in your monthly journal and carry over them later-on to block out short lived ideas.
+
+| Monthly Journal | Annual Journal |
+| --- | --- |
+| ![Monthly Journal](../../raw/main/P1050266.JPG) | ![Annual Journal](../../raw/main/P1050265.JPG) | 
+
 ### Monthly Planning & Log
 
-Since the monthly journal ends after one month, it forces you to do regular clean-up and you should take your time for some thinking. Check-out "The 4 Questions" and "KALM" for some simple retrospective methods. Study the recorded weekly planners and review your long-term plans & goals. Then write a monthly summary and define the next monthly goals.
+Since the monthly journal ends after one month, it forces you to do regular clean-up and you should take your time for some thinking. Check-out "The 4 Questions" and "KALM" for some simple retrospective methods. Study the recorded weekly planners and review your long-term plans & goals. Then write a monthly summary and define the next monthly goals. Try to get more realistic on your goals each month.
 
 | The 4 Questions | KALM |
 | --- | --- |
@@ -29,29 +34,30 @@ Where appropriate carry-over the last monthly journal to the annual journal or t
 
 With a "Done" stamp notes can be marked as obsolete during the month and simplifying it to search your notes.
 
-## Weekly/Daily Planning & Log
+### Weekly/Daily Planning & Log
 
 Use the weekly planners to do some rough planning at least once per week. Check your calendar and tracker lists for pending activities and transfer them to the weekly planner.
 
 Refine your weekly planner on a daily basis if needed. Log the actual activities there as well, though you can compare plan vs. reality later on.
 
-The monthly journal provides the space to do monthly, weekly and daily planning  
-* Quick manual
-* Pics Monthly Annual
-  * Monthly: Cover, planner, bullet, clamp, magnet
-  * Annual: marked sections "calendars+tracker, long-term, log book, archive"
+** TODO  Supa clip / Magnetic clip
 
+### Annual Planning & Log
 
+The longer the time span the less presice become goals. Use trackers and calendars to stay on track with your duties. Set some goals and estimate their priority, while considering the larger context. There are two way to break it down.
 
-# Annual Journal
-# Templates
-* Weekly planners, bullet sheets
-* Calendars
-* Tracker interval
+Structure in time:
+* Live phase (by age)
+* year
+* quarter
+* month
+* day
 
-# Planning Layers
-* Structure in time: Live phase (age) / year / quarter / month / day
-* Structure of planning: Live phase (situation) / live goals / projects / ideas & activites
+Structure of planning:
+* Live phase (situation)
+* live goals
+* projects
+* ideas & activites
 
 # For Beginners
 
@@ -84,6 +90,7 @@ The costs range around 30€
 
 # Crafting
 
+[Crafting](CRAFTING.md)
 TODO
 
 ## Template index
