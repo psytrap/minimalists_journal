@@ -20,7 +20,15 @@ The annual journal has no strict structure. It contains various calendars, track
 
 | Monthly Journal | Annual Journal |
 | --- | --- |
-| ![Monthly Journal](../../raw/main/P1050266.JPG) | ![Annual Journal](../../raw/main/P1050265.JPG) | 
+| ![Monthly Journal](../../raw/main/P1050266.JPG) | ![Annual Journal](../../raw/main/P1050265.JPG) |
+
+Use wire binding for the monthly journal so you can use it double sided or single side to save space on your desk. Use Supaclip 40 to bookmark the current weekly planner. A customized magnetic clip marks the last pages in the notes section.
+
+Use a ring book A6 for a customizable annual journal   
+
+| Weekly Planner Bookmark | Bookmark Latest Notes | Single Sided (Left Handed) |
+| --- | --- | --- |
+| ![Monthly Journal](../../raw/main/P1050267.JPG) | ![Annual Journal](../../raw/main/P1050268.JPG) | ![Annual Journal](../../raw/main/P1050269.JPG) |
 
 ### Monthly Planning & Log
 
@@ -40,8 +48,6 @@ Use the weekly planners to do some rough planning at least once per week. Check 
 
 Refine your weekly planner on a daily basis if needed. Log the actual activities there as well, though you can compare plan vs. reality later on.
 
-** TODO  Supa clip / Magnetic clip
-
 ### Annual Planning & Log
 
 The longer the time span the less presice become goals. Use trackers and calendars to stay on track with your duties. Set some goals and estimate their priority, while considering the larger context. There are two way to break it down.
@@ -58,6 +64,18 @@ Structure of planning:
 * live goals
 * projects
 * ideas & activites
+
+## Crafting & Material
+
+For the least effort to build a monthly journal find an online printer for spiral books. Send them the following PDFs:
+* [monthly_work_72pages.pdf](../../raw/main/pdf/books/monthly_work_72pages.pdf)
+* [monthly_72pages.pdf](../../raw/main/pdf/books/monthly_72pages.pdf)
+
+Some good websites are:
+* Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de)
+* US: [Printingcenterusa](https://www.printingcenterusa.com)
+
+The crafting page contains instructions for more customization: [Crafting](CRAFTING.md)
 
 # For Beginners
 
@@ -88,11 +106,6 @@ Supa clip clamps
 Magnetic clip
 The costs range around 30€
 
-# Crafting
-
-[Crafting](CRAFTING.md)
-TODO
-
 ## Template index
 
 | Purpose | Link |
@@ -106,8 +119,6 @@ TODO
 | A quick manual as a short reminder | https://github.com/psytrap/minimalists_bullet_journal/raw/main/pdf/A6/quick_manual.pdf |
 
 ## TODO
-* Calendar for two pages
-* Different intensity bullet sheets
 * More description!!
 
 Powered by https://dillinger.io
