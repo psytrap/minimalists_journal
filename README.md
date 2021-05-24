@@ -1,30 +1,49 @@
 # The Minimalists Bullet Journal
 
 
-Bullet Journaling helps to organize your life and clean-up your mind. It helps you to see the past, the present and the future clearly and this way strengthen your focus on what to do now. The Minimalists Bullet Journal has a simple structure and is easy to use. Therefor it creates strong benfits with little burden. It doesn't look nice unless you enforce it, but minimal looks good on its own.
+Bullet Journaling helps to organize your life and clean-up your mind. It helps you to see the past, the present and the future clearly and this way strengthen your focus on what to do now. The Minimalists Bullet Journal has a simple structure and is easy to use. Therefor it creates such benfits with little burden. It doesn't look nice unless you enforce it, but minimal looks good on its own.
 
 Here you'll find instructions and templates to create a clean and useful bullet journal with minimal effort.
 
 # TL;DR
-The Minimalists Bullet Journal splits into a monthly and an annual journal. The monthly journal contains everything about current activites and divides into a weekly planner section and a section for note making. It's small and even fits below the keyboard on your desk or into your bag. The annual journal contains everything long-term like plans, calendars, goals or reflections. 
+The Minimalists Bullet Journal splits into a monthly and an annual journal. The monthly journal contains everything about current activites and divides into a weekly planner section and a section for note making. It's small and fits even below the keyboard on your desk or into your bag. The annual journal contains everything long-term like plans, calendars, goals or reflections. 
 
-Since the proposed journal requires a few tools there's also a beginner version of the journal to get started.
+Since the proposed journal requires some crafting and costs there's also a simplified version of the journal to get started.
 
 # How to use it
 ## Journal Structure
+
+The Minimalists Bullet Journal are actually two journals the monthly and the annual journal.
+
+The first pages of the monthly journal are a set of weekly planners, enough for one month of planning. The other half consist of bullet sheets to write down ideas and keep record of all kind of thoughts. Both parts relief your brain from the burden to keep them in memory. It helps you to decide what to do now and ignore anything beyond that.
+
+### Monthly Planning & Log
+
+Since the monthly journal ends after one month, it forces you to do regular clean-up and you should take your time for some thinking. Check-out "The 4 Questions" and "KALM" for some simple retrospective methods. Study the recorded weekly planners and review your long-term plans & goals. Then write a monthly summary and define the next monthly goals.
+
+| The 4 Questions | KALM |
+| --- | --- |
+| What have I learned?<br/>What went well?<br/>What should change?<br/>Where there ambiguities? | Keep<br/>Add<br/>Less<br/>More |
+
+Where appropriate carry-over the last monthly journal to the annual journal or the next monthly journal. Archive or dispose the obsolte notes.
+
+With a "Done" stamp notes can be marked as obsolete during the month and simplifying it to search your notes.
+
+## Weekly/Daily Planning & Log
+
+Use the weekly planners to do some rough planning at least once per week. Check your calendar and tracker lists for pending activities and transfer them to the weekly planner.
+
+Refine your weekly planner on a daily basis if needed. Log the actual activities there as well, though you can compare plan vs. reality later on.
+
+The monthly journal provides the space to do monthly, weekly and daily planning  
 * Quick manual
 * Pics Monthly Annual
   * Monthly: Cover, planner, bullet, clamp, magnet
   * Annual: marked sections "calendars+tracker, long-term, log book, archive"
 
-## Monthly Planning & Log
-* Quick manual
-* Keep marker and Done marker
 
-## Weekly Planning & Log
-* Quick manual
-* Weekly planner serves as well as a log - note plan + reality 
 
+# Annual Journal
 # Templates
 * Weekly planners, bullet sheets
 * Calendars
