@@ -15,7 +15,7 @@ Since the proposed journal requires some crafting and costs there's also a simpl
   * [Monthly Planning & Log](#monthly-planning--log)
   * [Weekly/Daily Planning & Log](#weeklydaily-planning--log)
   * [Annual Planning & Log](#annual-planning--log)
-* [For Beginners](#for-beginners)
+* [Simplified](#simplified)
 * [Crafting & Materials](#crafting--materials)
 
 ## Journal Structure
@@ -58,7 +58,7 @@ Refine your weekly planner on a daily basis if needed. Log the actual activities
 
 ### Annual Planning & Log
 
-The longer the time span the less presice become goals. Use trackers and calendars to stay on track with your duties. Set some goals and estimate their priority, while considering the larger context. There are two way to break it down.
+The longer the time span the less presice become goals. Use trackers and calendars to stay on track with your duties. Set some goals and estimate their priority, while considering the larger context. There are two ways to break it down.
 
 Structure in time:
 * Live phase (by age)
@@ -73,28 +73,31 @@ Structure of planning:
 * projects
 * ideas & activites
 
-## For Beginners
+## Simplified
 
-TODO same idea
-
+Get started with the simplified Minimalists Journal. It supports the same ideas at lower costs, but less convenience.
 
 Get an A5 spiral block with dotted pages and put it landscape. Skip the first five sheets. Glue an A5 weekly planner onto each of the next five sheets. The following pages are for note making. The first sheets contain everthing for the annual journalling.
 
-Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customization.
+Atfter all weekly planners are filled a new monthly journal starts. Remove the old notes and weekly planners and glue in five new weekly planners.
 
-  * TODO Pics
+Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customizations.
+
+| Split Pages | Weekly Planner |
+| --- | --- |
+| ![Split Pages](../../raw/main/P1050271.JPG) | ![Weekly Planner](../../raw/main/P1050270.JPG) |
 
 ## Crafting & Materials
 
-For the least effort to build a monthly journal find an online printer for spiral books. Send them the following PDFs:
+For the least effort to build a monthly journal find an online printer for spiral books. Send them one of the following PDFs:
 * [monthly_work_72pages.pdf](../../raw/main/pdf/books/monthly_work_72pages.pdf)
 * [monthly_72pages.pdf](../../raw/main/pdf/books/monthly_72pages.pdf)
 
-Some good websites are:
+Some suitable online printers are:
 * Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de)
 * US: [Printingcenterusa](https://www.printingcenterusa.com)
 
-Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customization.
+Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customizations.
 
 
 *Powered by https://dillinger.io*
