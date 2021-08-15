@@ -26,13 +26,13 @@ The first pages of the monthly journal are a set of weekly planners, enough for 
 
 The annual journal has no strict structure. It contains various calendars, trackers and long-term collections. Collections can be all sorts of things: TODO lists wish lists, favorites lists, ideas / concepts, goals&plans, analysis, self-knowledge & reflections. Just start them in your monthly journal and carry over them later-on to block out short lived ideas.
 
-| Monthly Journal | Annual Journal |
+| Monthly Journal | Annual Journal (Left Handed) |
 | --- | --- |
-| ![Monthly Journal](../../raw/main/media/P1050266.JPG) | ![Annual Journal](../../raw/main/media/P1050265.JPG) |
+| ![Monthly Journal](../../raw/main/media/P1050266.JPG) | ![Annual Journal](../../raw/main/media/P1050275.JPG) |
 
 Use wire binding for the monthly journal so you can use it double sided or single side to save space on your desk. Use Supaclip 40 to bookmark the current weekly planner. A customized magnetic clip marks the last pages in the notes section.
 
-Use a ring book A6 for a customizable annual journal.
+Use a ring book A5 for a customizable annual journal.
 
 | Weekly Planner Bookmark | Bookmark Latest Notes | Single Sided (Left Handed) |
 | --- | --- | --- |
@@ -61,14 +61,14 @@ Refine your weekly planner on a daily basis if needed. Log the actual activities
 The longer the time span the less presice become goals. Use trackers and calendars to stay on track with your duties. Set some goals and estimate their priority, while considering the larger context. There are two ways to break it down.
 
 Structure in time:
-* Live phase (by age)
+* live phase (by age)
 * year
 * quarter
 * month
 * day
 
 Structure of planning:
-* Live phase (situation)
+* live phase (situation)
 * live goals
 * projects
 * ideas & activites
@@ -96,6 +96,8 @@ For the least effort to build a monthly journal find an online printer for spira
 Some suitable online printers are:
 * Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de)
 * US: [Printingcenterusa](https://www.printingcenterusa.com)
+
+Offset paper shows the best results for journaling.
 
 Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customizations.
 
