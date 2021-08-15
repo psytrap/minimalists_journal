@@ -20,7 +20,7 @@ book72pages()
   pages="$pages $planner"
   pages="$pages $planner"
 
-  for i in $(seq 57) ; do pages="$pages bullet_sheet_g7.5mm_i80.pdf" ; done
+  for i in $(seq 57) ; do pages="$pages bullet_sheet_g5mm_i80.pdf" ; done
 
   pages="$pages blank.pdf"
   pages="$pages blank.pdf"

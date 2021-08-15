@@ -12,7 +12,7 @@ offset_x = 0.
 offset_y = 0.
 margin_x = 4.
 margin_y = 4.
-dot_size = 0.5
+dot_size = 0.4
 helligkeit = 70
 svg_output = "bullet_sheet.svg"
 
@@ -21,23 +21,32 @@ parser.add_argument("--grid", default=grid, type=float, help='Dot grid in mm')
 parser.add_argument("--date", action='store_true', help='Add a dot line for noting a date')
 parser.add_argument("--intensity", default=helligkeit, type=int, help='Intensity in percent')
 parser.add_argument("--output", default=svg_output, help='Output filename')
+parser.add_argument("--size", default="105x148", help='size <width>x<height>')
+
 
 args = parser.parse_args()
 grid = args.grid
 with_date = args.date
 helligkeit = float(args.intensity)/100.
+size = args.size
+svg_output = args.output
+size = size.split('x')
+print("size:", size)
+template_width = int(size[0])
+template_height = int(size[1])
 
+def svg_template_generator(x, y):
+    svg_template = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>" + "\n"
+    svg_template += "<svg" + "\n"
+    svg_template += "   xmlns=\"http://www.w3.org/2000/svg\"" + "\n"
+    svg_template += "   width=\"" + str(x) + "mm\"" + "\n"
+    svg_template += "   height=\"" + str(y) + "mm\"" + "\n"
+    svg_template += "   viewBox=\"0 0 " + str(x) + " " + str(y) + "\"" + "\n"
+    svg_template += "   version=\"1.1\">" + "\n"
+    svg_template += "</svg>" + "\n"
+    return svg_template
 
-
-svg_template = "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>" + "\n"
-svg_template += "<svg" + "\n"
-svg_template += "   xmlns=\"http://www.w3.org/2000/svg\"" + "\n"
-svg_template += "   width=\"105mm\"" + "\n"
-svg_template += "   height=\"148mm\"" + "\n"
-svg_template += "   viewBox=\"0 0 105 148\"" + "\n"
-svg_template += "   version=\"1.1\">" + "\n"
-svg_template += "</svg>" + "\n"
-
+svg_template = svg_template_generator(template_width, template_height)
 
 teiler_grid = grid / math.pi
 
@@ -99,8 +108,8 @@ teiler(dots, 0.75)
 if with_date is True:
     #datum_x = width - (grid + start_x)
     datum_grid = grid/3.
-    dots_datum = math.floor(3. * grid / datum_grid) + 1
-    datum_y = start_y + grid
+    dots_datum = math.floor(5. * grid / datum_grid) + 1
+    datum_y = start_y + 1.5 * grid
     print(datum_y)
     # Datum rechts oben
     for dot_datum in range(dots_datum):

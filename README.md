@@ -28,7 +28,7 @@ The annual journal has no strict structure. It contains various calendars, track
 
 | Monthly Journal | Annual Journal |
 | --- | --- |
-| ![Monthly Journal](../../raw/main/P1050266.JPG) | ![Annual Journal](../../raw/main/P1050265.JPG) |
+| ![Monthly Journal](../../raw/main/media/P1050266.JPG) | ![Annual Journal](../../raw/main/media/P1050265.JPG) |
 
 Use wire binding for the monthly journal so you can use it double sided or single side to save space on your desk. Use Supaclip 40 to bookmark the current weekly planner. A customized magnetic clip marks the last pages in the notes section.
 
@@ -36,7 +36,7 @@ Use a ring book A6 for a customizable annual journal.
 
 | Weekly Planner Bookmark | Bookmark Latest Notes | Single Sided (Left Handed) |
 | --- | --- | --- |
-| ![Monthly Journal](../../raw/main/P1050267.JPG) | ![Annual Journal](../../raw/main/P1050268.JPG) | ![Annual Journal](../../raw/main/P1050269.JPG) |
+| ![Monthly Journal](../../raw/main/media/P1050267.JPG) | ![Annual Journal](../../raw/main/media/P1050268.JPG) | ![Annual Journal](../../raw/main/media/P1050269.JPG) |
 
 ### Monthly Planning & Log
 
@@ -85,7 +85,7 @@ Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal 
 
 | Split Pages | Weekly Planner |
 | --- | --- |
-| ![Split Pages](../../raw/main/P1050271.JPG) | ![Weekly Planner](../../raw/main/P1050270.JPG) |
+| ![Split Pages](../../raw/main/media/P1050271.JPG) | ![Weekly Planner](../../raw/main/media/P1050270.JPG) |
 
 ## Crafting & Materials
 

@@ -5,32 +5,31 @@ rm -v ../pdf/A6/*
 rm -v ../pdf/4x6inch/*
 rm -v ../pdf/A5/*
 
-loffice --convert-to pdf --outdir ../pdf/A6/ ./*.odt
-loffice --convert-to pdf --outdir ../pdf/A6/ ./*.ods
-loffice --convert-to pdf --outdir ../pdf/A6/ ./calendars/*.ods
-for pdf in ../pdf/A6/calendar* ; do
-  pdf=$(basename $pdf)
-  echo "PDF: $pdf"
-  mv -v ../pdf/A6/$pdf ../pdf/A6/tmp_$pdf
-  gs -o ../pdf/A6/$pdf -sDEVICE=pdfwrite -dFirstPage=1 -dLastPage=2 ../pdf/A6/tmp_$pdf
-  rm -v ../pdf/A6/tmp_$pdf
-done
+loffice --convert-to pdf --outdir ../pdf/A6/ ./blank.odt ./title_page.odt
+loffice --convert-to pdf --outdir ../pdf/A6/ ./weekly*.ods
+
 
 rm -v bullet_sheet*svg
-for grid in "5" "7.5" ; do
-  echo "Grid: $grid"
-  for i in 70 80 90 ; do
-    echo "Intensity: $i"
-    python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --output bullet_sheet_g${grid}mm_i$i.svg
-    python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --date --output bullet_sheet_with_date_g${grid}mm_i$i.svg
-    inkscape ./bullet_sheet.svg --export-pdf="../pdf/A6/bullet_sheet_g${grid}mm_i$i.pdf"
-    inkscape ./bullet_sheet_with_date.svg --export-pdf="../pdf/A6/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
-  done
+grid="5"
+echo "Grid: $grid"
+for i in 70 80 90 ; do
+  echo "Intensity: $i"
+  # A6
+  python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --output bullet_sheet_g${grid}mm_i$i.svg
+  python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --date --output bullet_sheet_with_date_g${grid}mm_i$i.svg
+  inkscape ./bullet_sheet_g${grid}mm_i$i.svg --export-pdf="../pdf/A6/bullet_sheet_g${grid}mm_i$i.pdf"
+  inkscape ./bullet_sheet_with_date_g${grid}mm_i$i.svg --export-pdf="../pdf/A6/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
+  # A5
+  python3 ./generate_bullet_sheet.py --size "148x210" --grid $grid --intensity $i --output bullet_sheet_A5_g${grid}mm_i$i.svg
+  python3 ./generate_bullet_sheet.py --size "148x210" --grid $grid --intensity $i --date --output bullet_sheet_with_date_A5_g${grid}mm_i$i.svg
+  inkscape ./bullet_sheet_A5_g${grid}mm_i$i.svg --export-pdf="../pdf/A5/bullet_sheet_g${grid}mm_i$i.pdf"
+  inkscape ./bullet_sheet_with_date_A5_g${grid}mm_i$i.svg --export-pdf="../pdf/A5/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
 done
 
+sleep 10
 rm -v *svg
 
-
+# Convert to 4x6 inch
 for pdf in ../pdf/A6/* ; do
   pdf=$(basename $pdf)
   echo $pdf
@@ -40,19 +39,8 @@ done
 
 
 # weekly / tracker / quick
-for beginner in ../pdf/A6/weekly* ../pdf/A6/tracker* ../pdf/A6/quick* ; do
-  echo "PDF: $beginner"
-  beginner=$(basename $beginner)
-  # only supported in GS 9.54 gs -o ../pdf/A5/$beginner -sDownScaleFactor=3 -sDEVICE=pdfwrite -dORIENT1=false -sNupControl=2x1  -sDEFAULTPAPERSIZE=a4 ../pdf/A6/$beginner
-  convert -density 600 ../pdf/A6/$beginner +adjoin temp-%02d.png
-  if ! [ -f temp-01.png ]; then
-      cp -v temp-00.png temp-01.png
-  fi
-  montage -geometry +2+1 temp-*png temp.png
-  convert temp.png -density 600 ../pdf/A5/$beginner
-  rm *.png
-done
-
+loffice --convert-to pdf --outdir ../pdf/A5/ ./A5*.ods
+loffice --convert-to pdf --outdir ../pdf/A5/ ./calendars/A5*.ods
 
 # TODO use tmp files
 
