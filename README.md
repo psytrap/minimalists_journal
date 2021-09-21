@@ -97,7 +97,7 @@ Some suitable online printers are:
 * Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de)
 * US: [Printingcenterusa](https://www.printingcenterusa.com)
 
-Offset paper shows the best results for journaling.
+Offset paper shows the best results for writing a journal. With a wire bind of 10 millimeter diameter, the best comfort is achieved. 
 
 Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal and for more customizations.
 
