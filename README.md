@@ -35,7 +35,7 @@ Use wire binding for the monthly journal so you can use it double sided or singl
 Use a ring book A5 for a customizable annual journal.
 
 | Weekly Planner Bookmark | Single Sided Use (Left Handed) |
-| --- | --- | --- |
+| --- | --- |
 | ![Monthly Journal](../../raw/main/media/P1050267.JPG) | ![Annual Journal](../../raw/main/media/P1050269.JPG) |
 
 ### Monthly Planning & Log
