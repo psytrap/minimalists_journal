@@ -7,3 +7,4 @@
 | Tracker for recurring tasks | https://github.com/psytrap/minimalists_bullet_journal/raw/main/pdf/A5/A5_tracker_interval.pdf |
 | Tracker for habits | https://github.com/psytrap/minimalists_bullet_journal/raw/main/pdf/A5/A5_tracker_habit.pdf |
 | A quick manual as a short reminder | https://github.com/psytrap/minimalists_bullet_journal/raw/main/pdf/A5/A5_quick_manual.pdf |
+
