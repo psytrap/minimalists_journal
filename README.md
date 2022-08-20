@@ -34,9 +34,9 @@ Use wire binding for the monthly journal so you can use it double sided or singl
 
 Use a ring book A5 for a customizable annual journal.
 
-| Weekly Planner Bookmark | Bookmark Latest Notes | Single Sided (Left Handed) |
+| Weekly Planner Bookmark | Single Sided Use (Left Handed) |
 | --- | --- | --- |
-| ![Monthly Journal](../../raw/main/media/P1050267.JPG) | ![Annual Journal](../../raw/main/media/P1050268.JPG) | ![Annual Journal](../../raw/main/media/P1050269.JPG) |
+| ![Monthly Journal](../../raw/main/media/P1050267.JPG) | ![Annual Journal](../../raw/main/media/P1050269.JPG) |
 
 ### Monthly Planning & Log
 
@@ -90,11 +90,11 @@ Go to the [crafting page](CRAFTING.md) for templates to fill the annual journal 
 ## Crafting & Materials
 
 For the least effort to build a monthly journal find an online printer for spiral books. Send them one of the following PDFs:
-* [monthly_work_72pages.pdf](../../raw/main/pdf/books/monthly_work_72pages.pdf)
-* [monthly_72pages.pdf](../../raw/main/pdf/books/monthly_72pages.pdf)
+* [monthly_work_60pages.pdf](../../raw/main/pdf/books/monthly_work_60pages.pdf)
+* [monthly_60pages.pdf](../../raw/main/pdf/books/monthly_60pages.pdf)
 
 Some suitable online printers are:
-* Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de)
+* Europe: [WirmachenDruck.de](https://www.wir-machen-druck.de), [Direktprint](direktprint.de)
 * US: [Printingcenterusa](https://www.printingcenterusa.com)
 
 Offset paper shows the best results for writing a journal. With a wire bind of 10 millimeter diameter, the best comfort is achieved. 
