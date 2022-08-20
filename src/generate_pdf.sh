@@ -14,24 +14,25 @@ echo ; echo "Generate bullet sheets..."
 rm -vf bullet_sheet*svg
 grid="5"
 echo ; echo "- Grid: ${grid}mm"
-for i in 70 80 90 ; do
+for i in 80 ; do
   echo ; echo "- Intensity: $i"
   # A6
   python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --output bullet_sheet_g${grid}mm_i$i.svg
-  python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --date --output bullet_sheet_with_date_g${grid}mm_i$i.svg
+  #python3 ./generate_bullet_sheet.py --grid $grid --intensity $i --date --output bullet_sheet_with_date_g${grid}mm_i$i.svg
   inkscape ./bullet_sheet_g${grid}mm_i$i.svg --export-pdf="../pdf/A6/bullet_sheet_g${grid}mm_i$i.pdf"
-  inkscape ./bullet_sheet_with_date_g${grid}mm_i$i.svg --export-pdf="../pdf/A6/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
+  #inkscape ./bullet_sheet_with_date_g${grid}mm_i$i.svg --export-pdf="../pdf/A6/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
   # A5
   python3 ./generate_bullet_sheet.py --size "148x210" --grid $grid --intensity $i --output bullet_sheet_A5_g${grid}mm_i$i.svg
-  python3 ./generate_bullet_sheet.py --size "148x210" --grid $grid --intensity $i --date --output bullet_sheet_with_date_A5_g${grid}mm_i$i.svg
+  #python3 ./generate_bullet_sheet.py --size "148x210" --grid $grid --intensity $i --date --output bullet_sheet_with_date_A5_g${grid}mm_i$i.svg
   inkscape ./bullet_sheet_A5_g${grid}mm_i$i.svg --export-pdf="../pdf/A5/bullet_sheet_g${grid}mm_i$i.pdf"
-  inkscape ./bullet_sheet_with_date_A5_g${grid}mm_i$i.svg --export-pdf="../pdf/A5/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
+  #inkscape ./bullet_sheet_with_date_A5_g${grid}mm_i$i.svg --export-pdf="../pdf/A5/bullet_sheet_with_date_g${grid}mm_i$i.pdf"
 done
 
 echo ; sleep 5
 rm -v *svg
 
 echo ; echo "Convert to 4x6 inch..."
+mkdir -p ../pdf/4x6inch
 for pdf in ../pdf/A6/* ; do
   pdf=$(basename $pdf)
   echo $pdf
